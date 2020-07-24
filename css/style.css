@@ -1,0 +1,98 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+	background-color: #333333;
+	padding: 20px 0;
+}
+
+header .logo {
+	width: 200px;
+}
+@media screen and (min-width: 768px) {
+	header .logo {
+		width: 400px;
+	}
+}
+
+.btn-menu img {
+	width: 40px;
+}
+
+main {
+	text-align: center;
+}
+
+.cont-logo {
+	background-image: url('../img/fondo-logo-central.jpg');
+	background-size: cover;
+	background-position: center;
+}
+
+.cont-logo img {
+	width: 200px;
+	margin-top: 80px;
+}
+@media screen and (min-width: 768px) {
+	.cont-logo img {
+		width: 600px;
+		margin-top: 80px;
+	}
+}
+
+h1 {
+	font-size: 1.5rem;
+    line-height: 3rem;
+    font-weight: bold;
+	color: #353535;
+	margin: 0;
+}
+@media screen and (min-width: 768px) {
+	h1 {
+		font-size: 3.7rem;
+		line-height: 8rem;
+	}
+}
+
+.texto-grande {
+	background-image: url('../img/fondo-texto.jpg');
+	background-size: cover;
+	background-position: center;
+	padding: 60px 0;
+}
+
+h4 {
+	color: #424242;
+	font-size: 1.2rem;
+}
+@media screen and (min-width: 768px) {
+	h4 {
+		font-size: 2.2rem;
+	}
+}
+
+.contacto {
+	color: #424242;
+	padding: 40px 0;
+}
+@media screen and (min-width: 768px) {
+	.contacto {
+		font-size: 1.7rem;
+	}
+}
+
+footer {
+	background-color: #000000;
+	text-align: center;
+	padding: 30px;
+}
+
+footer img {
+	width: 180px;
+}
+@media screen and (min-width: 768px) {
+	footer img {
+		width: 300px;
+	}
+}
